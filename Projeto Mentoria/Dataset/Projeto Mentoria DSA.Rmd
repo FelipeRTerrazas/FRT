@@ -1,0 +1,39 @@
+---
+title: "Projeto Mentoria DSA"
+author: "Felipe Ramires Terrazas"
+date: "13/07/2020"
+output:
+  word_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Análise Descritiva
+
+Este é um documento contendo o trabalho desenvolvido como projeto de Mentoria da Data Science Academy. A primeira parte deste documento contem a análise descritiva dos dados. A segunda parta, análise preditiva. Caso tenha dúvidas ou sugestões de melhoria do projeto entre em contato com os autores
+
+
+```{r}
+
+print(p1)
+```
+
+
+
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
